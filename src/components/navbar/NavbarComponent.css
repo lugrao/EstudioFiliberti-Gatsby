@@ -1,0 +1,30 @@
+#navbar {
+    background-color: #ffffff;
+    padding: 0 7rem 0 6.2rem !important;
+}
+#navbar a {
+    font-family: "Poppins", sans-serif;
+    color: #999999;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        padding: 0 7rem 0 6.2rem !important;
+        background-color: #ffffff;
+        height: 99px;
+    }
+    #navbar .active {
+        border-bottom: solid 4px #df0101 !important;
+    }
+}
+
+.navbar-collapse {
+    flex-basis: 100% !important;
+    flex-grow: 1 !important;
+    align-items: center !important;
+}
